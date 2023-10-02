@@ -13,23 +13,25 @@ def menu():
  
  
 while True:
-	# Mostramos el menu
+	# Mostraremos el menú principal:
+	
 	menu()
  
-	# solicituamos una opción al usuario
-	opcionMenu = input("inserta un numero valor >> ")
+	# Solicitamos una opción al usuario:
+
+	opcionMenu = input("INGRESE CUALQUIER NÚMERO >> ")
  
-	if opcionMenu=="1":
+	if opcionMenu == "1":
 		print ("")
-		input("Has pulsado la opción 1...\npulsa una tecla para continuar")
-	elif opcionMenu=="2":
+		input("Has pulsado la opción 1...\nPresione cualquier tecla para continuar")
+	elif opcionMenu == "2":
 		print ("")
-		input("Has pulsado la opción 2...\npulsa una tecla para continuar")
-	elif opcionMenu=="3":
+		input("Has pulsado la opción 2...\nPresione cualquier tecla para continuar")
+	elif opcionMenu == "3":
 		print ("")
-		input("Has pulsado la opción 3...\npulsa una tecla para continuar")
-	elif opcionMenu=="9":
+		input("Has pulsado la opción 3...\nPreisone cualquier tecla para continuar")
+	elif opcionMenu == "9":
 		break
 	else:
 		print ("")
-		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
+		input("Opción Inválida...\nPresione cualquier tecla para continuar")
